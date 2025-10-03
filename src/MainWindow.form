@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<form xmlns="http://www.intellij.com/uidesigner/form/" version="1" bind-to-class="MainWindow">
+  <grid id="27dc6" binding="MainPanel" layout-manager="GridBagLayout">
+    <constraints>
+      <xy x="20" y="20" width="758" height="521"/>
+    </constraints>
+    <properties>
+      <preferredSize width="600" height="300"/>
+    </properties>
+    <border type="none"/>
+    <children>
+      <component id="1199c" class="javax.swing.JButton" binding="Button1">
+        <constraints>
+          <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+          <gridbag top="0" left="0" bottom="30" right="0" weightx="0.0" weighty="0.0" ipadx="300" ipady="30"/>
+        </constraints>
+        <properties>
+          <font name="Arial" size="20"/>
+          <text value="Створення замовлення"/>
+        </properties>
+      </component>
+      <component id="c017b" class="javax.swing.JButton" binding="Button2">
+        <constraints>
+          <grid row="1" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+          <gridbag top="30" left="0" bottom="0" right="0" weightx="0.0" weighty="0.0" ipadx="300" ipady="30"/>
+        </constraints>
+        <properties>
+          <font name="Arial" size="20"/>
+          <text value="Перегляд статистики"/>
+        </properties>
+      </component>
+    </children>
+  </grid>
+</form>

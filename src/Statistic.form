@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<form xmlns="http://www.intellij.com/uidesigner/form/" version="1" bind-to-class="Statistic">
+  <grid id="27dc6" binding="MainPanel" layout-manager="GridBagLayout">
+    <constraints>
+      <xy x="20" y="112" width="706" height="580"/>
+    </constraints>
+    <properties>
+      <preferredSize width="700" height="600"/>
+    </properties>
+    <border type="none"/>
+    <children>
+      <component id="b9a61" class="javax.swing.JButton" binding="Button1">
+        <constraints>
+          <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+          <gridbag weightx="0.0" weighty="0.1" ipady="20"/>
+        </constraints>
+        <properties>
+          <font name="Arial" size="20"/>
+          <text value="Список сеансів які проходять в залі"/>
+        </properties>
+      </component>
+      <component id="ddd6" class="javax.swing.JButton" binding="Button2">
+        <constraints>
+          <grid row="1" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+          <gridbag weightx="0.0" weighty="0.1" ipady="20"/>
+        </constraints>
+        <properties>
+          <font name="Arial" size="18"/>
+          <text value="Пошук фільму"/>
+        </properties>
+      </component>
+      <component id="cd9ce" class="javax.swing.JButton" binding="Button3">
+        <constraints>
+          <grid row="2" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+          <gridbag weightx="0.0" weighty="0.1" ipady="20"/>
+        </constraints>
+        <properties>
+          <font name="Arial" size="18"/>
+          <text value="Сеанси в період"/>
+        </properties>
+      </component>
+      <component id="ffa70" class="javax.swing.JButton" binding="Button4">
+        <constraints>
+          <grid row="3" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+          <gridbag weightx="0.0" weighty="0.1" ipady="20"/>
+        </constraints>
+        <properties>
+          <font name="Arial" size="18"/>
+          <text value="Загальний дохід з проданих квитків"/>
+        </properties>
+      </component>
+      <component id="81356" class="javax.swing.JButton" binding="Button5">
+        <constraints>
+          <grid row="4" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+          <gridbag weightx="0.0" weighty="0.1" ipady="20"/>
+        </constraints>
+        <properties>
+          <font name="Arial" size="18"/>
+          <text value="Скільки квитків продано на кожен фільм"/>
+        </properties>
+      </component>
+      <component id="4a32e" class="javax.swing.JButton" binding="Button6">
+        <constraints>
+          <grid row="5" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+          <gridbag weightx="0.0" weighty="0.1" ipady="20"/>
+        </constraints>
+        <properties>
+          <font name="Arial" size="18"/>
+          <text value="Найпопулярніший фільм"/>
+        </properties>
+      </component>
+      <component id="8b278" class="javax.swing.JButton" binding="Button7">
+        <constraints>
+          <grid row="6" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+          <gridbag weightx="0.0" weighty="0.1" ipady="20"/>
+        </constraints>
+        <properties>
+          <font name="Arial" size="18"/>
+          <text value="Для кожного жанру --- найпопулярніший фільм"/>
+        </properties>
+      </component>
+      <component id="fbc" class="javax.swing.JButton" binding="Button8">
+        <constraints>
+          <grid row="7" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+          <gridbag weightx="0.0" weighty="0.1" ipady="20"/>
+        </constraints>
+        <properties>
+          <font name="Arial" size="18"/>
+          <text value="Фільми на які не було продано жодного квитка."/>
+        </properties>
+      </component>
+      <component id="139af" class="javax.swing.JButton" binding="Button9">
+        <constraints>
+          <grid row="8" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+          <gridbag weightx="0.0" weighty="0.1" ipady="20"/>
+        </constraints>
+        <properties>
+          <font name="Arial" size="18"/>
+          <text value="Найпопулярніший фільм та непродажні фільми"/>
+        </properties>
+      </component>
+    </children>
+  </grid>
+</form>
